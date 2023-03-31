@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sci-Fi PC
+* source:	https://sketchfab.com/3d-models/sci-fi-pc-2edace227e7f455c82718913c82f2c6d
+* author:	ItsMeFGU (https://sketchfab.com/itsmefgu)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sci-Fi PC" (https://sketchfab.com/3d-models/sci-fi-pc-2edace227e7f455c82718913c82f2c6d) by ItsMeFGU (https://sketchfab.com/itsmefgu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
