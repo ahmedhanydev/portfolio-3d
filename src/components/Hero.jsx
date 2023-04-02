@@ -30,7 +30,7 @@ const Hero = () => {
       <ComputersCanvas />
       {/* </div> */}
 
-      <div className="absolute  xs:top-[1050px] lg:block  lg:top-2 lg:right-4">
+      <div className="absolute  xs:top-[1050px]  lg:top-2 lg:right-4">
         <img
           src={myImg}
           alt="my photo"
