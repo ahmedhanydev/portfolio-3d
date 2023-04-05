@@ -30,7 +30,7 @@ const Hero = () => {
       <ComputersCanvas />
       {/* </div> */}
 
-      <div className="absolute  xs:top-[1050px]  lg:top-2 lg:right-4">
+      <div className="absolute  xs:top-[750px]  lg:top-2 lg:right-4">
         <img
           src={myImg}
           alt="my photo"
@@ -39,7 +39,7 @@ const Hero = () => {
         <img
           src={fairGif}
           alt="right hand "
-          className="absolute object-contain w-92 sm:hidden   top-[155px] right-[-91px]"
+          className="absolute object-contain w-92   top-[155px] right-[-91px]"
         />
       </div>
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
