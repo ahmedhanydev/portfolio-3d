@@ -14,6 +14,7 @@
 }
 body {
   background-color: #050816;
+  overflow-x: hidden;
 }
 .hash-span {
   margin-top: -100px;
