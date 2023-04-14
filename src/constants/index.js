@@ -24,7 +24,12 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import nifty from "../assets/nifty2.jpeg";
+import banksit from "../assets/banksit.png";
+import Omnifood from "../assets/Omnifood.jpg";
 
+import kalbonyan from "../assets/company/ka.jpg";
+import whynot from "../assets/company/whynot.png";
 export const navLinks = [
   {
     id: "about",
@@ -41,22 +46,22 @@ export const navLinks = [
 ];
 
 const services = [
+  // {
+  //   title: "Web Developer",
+  //   icon: web,
+  // },
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -116,55 +121,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full stack Developer Intern",
+    company_name: "Kalbonyan Elmarsos",
+    icon: kalbonyan,
+    iconBg: "#E6DEDD",
+    date: "Apr 2022 - Oct 2022",
+    points: [
+      "This is an online internship with mentoring from senior software engineers.",
+      "Gives me  learning tasks that sculpted my software and programming skill.",
+      "During this Internship I do about 6 projects now and taken 15 Project-Based courses.",
+    ],
+  },
+  {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Why Not Tech",
+    icon: whynot,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2023 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "worked as a freelance developer to create an e-commerce website for a client.",
+      "I created a responsive and user-friendly e-commerce website using ReactJS.",
+      "I focused on developing a seamless user experience and utilized React's component-based architecture to build complex UI elements. ",
+      "The end result was a successful e-commerce website that met the client's needs and exceeded their expectations.",
     ],
   },
 ];
@@ -198,58 +176,39 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Trending Movies",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Welcome to MTrend -  Our website is dedicated to bringing you the latest and greatest trending movies, TV shows, and popular celebrities from around the globe",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "bootstrap",
+        color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ahmedelgenius/Trending-movies-app",
+    demo: "https://trending-movies-app.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Nifty",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " explore our website and learn more about the exciting world of Nifty! ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +216,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nifty,
+    source_code_link: "https://github.com/ahmedelgenius",
+    demo: "https://nifty-website-two.vercel.app/",
+  },
+  {
+    name: "Bankist",
+    description: "website for A simpler banking experience for a simpler life.",
+    tags: [
+      {
+        name: "html",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: banksit,
+    source_code_link:
+      "https://github.com/ahmedelgenius/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Bankist-Site",
+    demo: "https://bankist-site-ahmed.netlify.app/",
+  },
+  {
+    name: "Omnifood",
+    description: "The site is the landing page of a restaurant",
+    tags: [
+      {
+        name: "html",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Omnifood,
+    source_code_link:
+      "https://github.com/ahmedelgenius/Kalbonyan-Elmarsos/tree/main/02-Udemy/-01-HTML-CSS-Jonas/Projects/Omnifood",
+    demo: "https://omnifood-ahmedhany.netlify.app/",
   },
 ];
 
