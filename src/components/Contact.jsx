@@ -66,17 +66,17 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <div className="flex justify-evenly mt-3">
+        <div className="flex justify-evenly xs:flex-col xs:gap-4  mt-3">
           <a
             href="https://www.linkedin.com/in/ahemd-hany-9bb233214"
             target="_blank"
           >
             <article
-              className="flex flex-col justify-center p-4 rounded "
+              className="flex flex-col justify-center p-4   rounded "
               style={{ backgroundColor: "#915eff" }}
             >
               <div
-                className="flex justify-between items-center
+                className="flex justify-between xs:justify-center items-center
               "
               >
                 <GrLinkedinOption className="me-2" />
@@ -89,11 +89,11 @@ const Contact = () => {
             target="_blank"
           >
             <article
-              className="flex flex-col justify-center p-4 rounded "
+              className="flex flex-col justify-center p-4 xs-p-0  rounded "
               style={{ backgroundColor: "#915eff" }}
             >
               <div
-                className="flex justify-between items-center
+                className="flex justify-between xs:justify-center items-center
               "
               >
                 <BsWhatsapp className="me-2" />
