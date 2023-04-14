@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { BsWhatsapp } from "react-icons/bs";
+import { GrLinkedinOption } from "react-icons/gr";
 
 const Contact = () => {
   const formRef = useRef();
@@ -64,6 +66,43 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className="flex justify-evenly mt-3">
+          <a
+            href="https://www.linkedin.com/in/ahemd-hany-9bb233214"
+            target="_blank"
+          >
+            <article
+              className="flex flex-col justify-center p-4 rounded "
+              style={{ backgroundColor: "#915eff" }}
+            >
+              <div
+                className="flex justify-between items-center
+              "
+              >
+                <GrLinkedinOption className="me-2" />
+                <h4>LinkedIn</h4>
+              </div>
+            </article>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=01033151009"
+            target="_blank"
+          >
+            <article
+              className="flex flex-col justify-center p-4 rounded "
+              style={{ backgroundColor: "#915eff" }}
+            >
+              <div
+                className="flex justify-between items-center
+              "
+              >
+                <BsWhatsapp className="me-2" />
+                {/* <h4>WhatsApp</h4> */}
+                <h5>+201033151009</h5>
+              </div>
+            </article>
+          </a>
+        </div>
 
         <form
           ref={formRef}
