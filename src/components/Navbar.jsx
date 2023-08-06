@@ -118,7 +118,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="flex justify-between items-center gap-10">
+        <div className="flex justify-between items-center ml-3 gap-4 lg:gap-10">
           {options.map((item, index) => {
             return (
               <button
@@ -131,32 +131,6 @@ const Navbar = () => {
               </button>
             );
           })}
-
-          {/* <i
-            className={`${options[0].icon}`}
-            style={{ fontSize: "1rem", color: "white" }}
-          ></i>
-          <i
-            className={`${options[1].icon}`}
-            style={{ fontSize: "1rem", color: "white" }}
-          ></i> */}
-          {/* <i
-            className={`pi pi-moon`}
-            style={{ fontSize: "1rem", color: "white" }}
-          ></i> */}
-
-          {/* <button onClick={() => setLight(true)}>
-            <BsFillSunFill
-              style={{ fontSize: "1.8rem" }}
-              className={`${light === true && "text-white"}`}
-            />
-          </button>
-          <button onClick={() => setDark(true)}>
-            <BsFillMoonStarsFill
-              style={{ fontSize: "1.4rem" }}
-              className={`${dark === true && "text-violet-500"}`}
-            />
-          </button> */}
         </div>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
