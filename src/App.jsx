@@ -17,32 +17,28 @@ import { useState } from "react";
 const App = () => {
   const [loading, setLoading] = useState(false);
 
-  // const NoInspect = () => {
-  //   useEffect(() => {
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 1500);
+  //   const handleKeyDown = (event) => {
+  //     if (event.keyCode === 123) {
+  //       // F12 key
+  //       event.preventDefault();
+  //     }
+  //   };
+  //   const handleContextMenu = (event) => {
+  //     event.preventDefault();
+  //   };
+  //   window.addEventListener("contextmenu", handleContextMenu);
 
-  //   }, []);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500);
-    const handleKeyDown = (event) => {
-      if (event.keyCode === 123) {
-        // F12 key
-        event.preventDefault();
-      }
-    };
-    const handleContextMenu = (event) => {
-      event.preventDefault();
-    };
-    window.addEventListener("contextmenu", handleContextMenu);
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-      window.removeEventListener("contextmenu", handleContextMenu);
-    };
-  }, []);
+  //   window.addEventListener("keydown", handleKeyDown);
+  //   return () => {
+  //     window.removeEventListener("keydown", handleKeyDown);
+  //     window.removeEventListener("contextmenu", handleContextMenu);
+  //   };
+  // }, []);
   return (
     <>
       {loading ? (
@@ -53,8 +49,9 @@ const App = () => {
         </div>
       ) : (
         <div className="relative z-0 bg-primary  ">
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <div className=" bg-cover bg-no-repeat bg-center">
             <Navbar />
+
             <Hero />
           </div>
           <About />

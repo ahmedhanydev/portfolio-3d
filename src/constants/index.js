@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  bootstrap,
+  sass,
 } from "../assets";
 import nifty from "../assets/nifty2.jpeg";
 import banksit from "../assets/banksit.png";
@@ -66,12 +68,24 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "SASS",
+    icon: sass,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "JavaScript",
@@ -89,10 +103,7 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -106,7 +117,7 @@ const technologies = [
   //   icon: threejs,
   // },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   // {

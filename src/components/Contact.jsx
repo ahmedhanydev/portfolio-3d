@@ -66,7 +66,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <div className="flex justify-evenly xs:flex-col xs:gap-4  mt-3">
+        <div className="flex justify-evenly flex-col lg:flex-row gap-4  mt-3">
           <a
             href="https://www.linkedin.com/in/ahemd-hany-9bb233214"
             target="_blank"
@@ -89,7 +89,7 @@ const Contact = () => {
             target="_blank"
           >
             <article
-              className="flex flex-col justify-center p-4 xs-p-0  rounded "
+              className="flex flex-col justify-center lg:p-4 p-4  rounded "
               style={{ backgroundColor: "#915eff" }}
             >
               <div
@@ -116,6 +116,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
+              required
               placeholder="What's your good name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
@@ -127,6 +128,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
+              required
               placeholder="What's your web address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
@@ -138,6 +140,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
+              required
               placeholder="What you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
