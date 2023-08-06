@@ -78,7 +78,7 @@ const Navbar = () => {
   // }
   return (
     <nav
-      className={` ${styles.paddingX} w-full  flex items-center  py-5 fixed top-0 z-20 dark:bg-primary bg-[#B4E4DA]`}
+      className={` ${styles.paddingX}  w-full  flex items-center  py-5 fixed top-0 z-20 dark:bg-primary bg-[#B4E4DA]`}
     >
       <div className="w-full flex justify-between items-center ">
         <Link
@@ -132,7 +132,7 @@ const Navbar = () => {
             );
           })}
         </div>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex  justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
