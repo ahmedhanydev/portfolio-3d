@@ -5,23 +5,28 @@ import fairGif from "../assets/right-hand.gif";
 import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto  ">
+    <section className="relative w-full   h-screen mx-auto  ">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[90px] lg:top-[130px] max-w-7xl mx-auto flex flex-row items-start gap-5 `}
       >
         <div
-          className="flex flex-col justify-center items-center mt-5
+          className=" flex-col justify-center items-center hidden dark:flex mt-5
         "
         >
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-40  violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-gray-500 dark:bg-[#915eff]" />
+          <div className="w-1 sm:h-80 h-40   violet-gradient" />
         </div>
         <div>
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className="text-[#915eff]">Ahmed</span>
+            <h1
+              className={`${styles.heroHeadText} text-gray-500 dark:text-white`}
+            >
+              Hi, I'm{" "}
+              <span className="dark:text-[#915eff]  text-[#112A46]">Ahmed</span>
             </h1>
-            <p className={`${styles.heroSubText}  text-white-100`}>
+            <p
+              className={`${styles.heroSubText}  text-gray-700 dark:text-white-100`}
+            >
               I MERN Stack Developer
             </p>
           </div>
@@ -29,13 +34,13 @@ const Hero = () => {
             <div className="">
               <a
                 href="#contact"
-                className="border-violet-500 hover:bg-violet-500 border-2 font-bold rounded-xl text-white px-5 py-3 lg:px-10 "
+                className="border-gray-500 hover:bg-gray-500 text-gray-700 hover:text-white dark:border-violet-500 dark:hover:bg-violet-500 border-2 font-bold rounded-xl dark:text-white px-5 py-3 lg:px-10 "
               >
                 Hire Me
               </a>
             </div>
             <div>
-              <button className=" border-violet-500 hover:bg-violet-500 border-2 font-bold rounded-xl text-white lg:px-7 px-3 py-3">
+              <button className=" border-gray-500 hover:bg-gray-500 text-gray-700 hover:text-white dark:border-violet-500 dark:hover:bg-violet-500 border-2 font-bold rounded-xl dark:text-white lg:px-7 px-3 py-3">
                 MY Resume
               </button>
             </div>
@@ -59,7 +64,7 @@ const Hero = () => {
           className="absolute object-contain w-92 top-[100px] right-[-58px]  lg:top-[155px] lg:right-[-91px] "
         />
       </div>
-      <div className="absolute bottom-[-10px]  lg:bottom-32 w-full flex justify-center items-center">
+      <div className="absolute bottom-[-10px]  lg:bottom-10 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

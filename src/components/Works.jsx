@@ -25,7 +25,8 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="border-gray-800 border-2
+         bg-inherit dark:bg-tertiary p-5 rounded-2xl w-[100%] lg:w-[360px]  "
       >
         <div
           className="relative w-full h-[230px]"
@@ -37,10 +38,10 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute right-0 top-[215px] flex justify-end m-3 ">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="w-20 h-20 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
@@ -52,8 +53,12 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5" onClick={() => window.open(demo, "_blank")}>
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px] h-24">{description}</p>
+          <h3 className="dark:text-white text-gray-800 font-bold text-[24px]">
+            {name}
+          </h3>
+          <p className="mt-2 dark:text-secondary text-gray-700 text-[14px] h-24">
+            {description}
+          </p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -82,7 +87,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-gray-700 dark:text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with

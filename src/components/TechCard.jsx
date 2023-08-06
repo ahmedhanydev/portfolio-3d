@@ -7,7 +7,7 @@ const TechCard = ({ icon, name }) => {
         <div className="bg-white h-28 w-28 flex justify-center items-center rounded-full p-2  ">
           <img src={icon} alt="" />
         </div>
-        <p>{name}</p>
+        <p className="dark:text-white text-gray-700">{name}</p>
       </div>
     </>
   );
