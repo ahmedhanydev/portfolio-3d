@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import sass from "./tech/sass.png";
+import jQuery from "./tech/jquery.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -63,4 +64,5 @@ export {
   tripguide,
   bootstrap,
   sass,
+  jQuery,
 };

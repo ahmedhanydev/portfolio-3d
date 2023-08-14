@@ -25,6 +25,7 @@ import {
   threejs,
   bootstrap,
   sass,
+  jQuery,
 } from "../assets";
 import nifty from "../assets/nifty2.jpeg";
 import banksit from "../assets/banksit.png";
@@ -91,16 +92,16 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "JQuery",
+    icon: jQuery,
+  },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux ",
     icon: redux,
   },
 
