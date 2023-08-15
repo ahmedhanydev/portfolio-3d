@@ -26,6 +26,8 @@ import {
   bootstrap,
   sass,
   jQuery,
+  tShop,
+  fokify,
 } from "../assets";
 import nifty from "../assets/nifty2.jpeg";
 import banksit from "../assets/banksit.png";
@@ -101,7 +103,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux ",
+    name: "Redux Toolkit",
     icon: redux,
   },
 
@@ -188,27 +190,31 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Trending Movies",
+    name: "T-Shop",
     description:
-      "Welcome to MTrend -  Our website is dedicated to bringing you the latest and greatest trending movies, TV shows, and popular celebrities from around the globe",
+      "T-Shop: Your premier destination for cutting-edge electronic devices.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
       },
 
       {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "TailwindCss",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/ahmedelgenius/Trending-movies-app",
-    demo: "https://trending-movies-app.vercel.app/",
+    image: tShop,
+    source_code_link: "https://github.com/ahmedelgenius/react-ecommerce",
+    demo: "https://t-shop-app.vercel.app/",
   },
   {
     name: "Nifty",
@@ -216,16 +222,16 @@ const projects = [
       " explore our website and learn more about the exciting world of Nifty! ",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
       },
       {
         name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        color: "vanished-text-gradient",
       },
     ],
     image: nifty,
@@ -233,20 +239,44 @@ const projects = [
     demo: "https://nifty-website-two.vercel.app/",
   },
   {
+    name: "Trending Movies",
+    description:
+      "Welcome to MTrend -  Our website is dedicated to bringing you the latest and greatest trending movies, TV shows, and popular celebrities from around the globe",
+    tags: [
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "Bootstrap",
+        color: "text-violet-500",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/ahmedelgenius/Trending-movies-app",
+    demo: "https://trending-movies-app.vercel.app/",
+  },
+
+  {
     name: "Bankist",
     description: "website for A simpler banking experience for a simpler life.",
     tags: [
       {
-        name: "html",
-        color: "yellow-text-gradient",
+        name: "Javascript",
+        color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
       {
-        name: "js",
-        color: "green-text-gradient",
+        name: "HTML",
+        color: "text-yellow-400",
       },
     ],
     image: banksit,
@@ -254,21 +284,22 @@ const projects = [
       "https://github.com/ahmedelgenius/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Bankist-Site",
     demo: "https://bankist-site-ahmed.netlify.app/",
   },
+
   {
     name: "Omnifood",
     description: "The site is the landing page of a restaurant",
     tags: [
       {
-        name: "html",
-        color: "yellow-text-gradient",
+        name: "Javascript",
+        color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
       {
-        name: "js",
-        color: "green-text-gradient",
+        name: "HTML",
+        color: "text-yellow-400",
       },
     ],
     image: Omnifood,

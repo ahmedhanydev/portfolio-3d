@@ -32,6 +32,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tShop from "./msg933576226-16466.jpg";
+import fokify from "./forkify.png";
 
 export {
   logo,
@@ -62,6 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  tShop,
+  fokify,
   bootstrap,
   sass,
   jQuery,
