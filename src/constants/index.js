@@ -239,7 +239,7 @@ const projects = [
     demo: "https://nifty-website-two.vercel.app/",
   },
   {
-    name: "Trending Movies",
+    name: "MTrend",
     description:
       "Welcome to MTrend -  Our website is dedicated to bringing you the latest and greatest trending movies, TV shows, and popular celebrities from around the globe",
     tags: [
